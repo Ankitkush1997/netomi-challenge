@@ -1,0 +1,14 @@
+.colorfulShadow {
+  border-radius: 15px;
+  padding: 20px;
+  background: #e0e0e0;
+  width: 300px;
+  box-shadow: inset 17px 17px 36px #afafaf, inset -17px -17px 36px #ffffff;
+  transition: 0.3s all ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.colorfulShadow:hover {
+  scale: 1.02;
+}
